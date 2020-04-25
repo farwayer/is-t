@@ -1,7 +1,8 @@
 {
-  "name": "is-t",
+  "name": "istp",
   "version": "1.0.0",
   "license": "WTFPL",
+  "repository": "farwayer/istp",
   "type": "module",
   "main": "index.cjs.js",
   "module": "index.esm.js",

@@ -1,7 +1,9 @@
-# is-t
+# istp
 
 ```console
-yarn add is-t
+yarn add istp
 ```
+
+## Functions
 
 `isFn`, `isStr`, `isObj`, `isDef`, `isNul`, `isInt`, `isGen`
