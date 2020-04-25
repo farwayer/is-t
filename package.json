@@ -1,0 +1,21 @@
+{
+  "name": "is-t",
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "type": "module",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "react-native": "index.js",
+  "sideEffects": false,
+  "scripts": {
+    "prepack": "yarn cjs && yarn esm",
+    "cjs": "babel --out-file index.cjs.js index.js",
+    "esm": "ESM=1 babel --out-file index.esm.js index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "files": ["index*.js"]
+}
