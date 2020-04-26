@@ -1,6 +1,6 @@
 const esm = !!process.env.ESM
 
-export default {
+module.exports = {
   presets: [
     ['@babel/preset-env', {
       bugfixes: true,
