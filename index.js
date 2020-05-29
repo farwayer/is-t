@@ -1,5 +1,4 @@
-const isType = type => val => typeof val === type
-
+export const isType = type => val => typeof val === type
 export const isFn = isType('function')
 export const isStr = isType('string')
 export const isObj = isType('object')
