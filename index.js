@@ -3,6 +3,7 @@ const isType = type => val => typeof val === type
 export const isFn = isType('function')
 export const isStr = isType('string')
 export const isObj = isType('object')
+export const isNum = isType('number')
 export const isDef = val => val !== undefined
 export const isNul = val => val === null
 export const isNil = val => val == null
