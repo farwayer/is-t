@@ -1,6 +1,6 @@
 {
   "name": "istp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "WTFPL",
   "repository": "farwayer/istp",
   "main": "index.cjs.js",
