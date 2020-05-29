@@ -14,6 +14,10 @@ export const isInt = val => Number.isInteger(val)
 export const isNan = val => Number.isNaN(val)
 export const isArr = val => Array.isArray(val)
 export const isDate = val => val instanceof Date
+export const isMap = val => val instanceof Map
+export const isWeakMap = val => val instanceof WeakMap
+export const isSet = val => val instanceof Set
+export const isWeakSet = val => val instanceof WeakSet
 export const isGen = val => {
   if (!val) return false
 
