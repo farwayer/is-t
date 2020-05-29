@@ -7,6 +7,7 @@ export const isDef = val => val !== undefined
 export const isNul = val => val === null
 export const isInt = val => Number.isInteger(val)
 export const isNan = val => Number.isNaN(val)
+export const isArr = val => Array.isArray(val)
 export const isGen = val => {
   if (!val) return false
 
