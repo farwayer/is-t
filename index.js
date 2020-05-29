@@ -6,6 +6,7 @@ export const isObj = isType('object')
 export const isNum = isType('number')
 export const isBool = isType('boolean')
 export const isSym = isType('symbol')
+export const isBigInt = isType('bigint')
 export const isDef = val => val !== undefined
 export const isUndef = val => val === undefined
 export const isNul = val => val === null
