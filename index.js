@@ -10,9 +10,9 @@ export const isDef = val => val !== undefined
 export const isUndef = val => val === undefined
 export const isNul = val => val === null
 export const isNil = val => val == null
-export const isInt = val => Number.isInteger(val)
-export const isNan = val => Number.isNaN(val)
-export const isArr = val => Array.isArray(val)
+export const isInt = Number.isInteger
+export const isNan = Number.isNaN
+export const isArr = Array.isArray
 export const isDate = val => val instanceof Date
 export const isMap = val => val instanceof Map
 export const isWeakMap = val => val instanceof WeakMap
