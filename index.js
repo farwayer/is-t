@@ -14,6 +14,7 @@ export const isInt = Number.isInteger
 export const isNan = Number.isNaN
 export const isArr = Array.isArray
 export const isDate = val => val instanceof Date
+export const isErr = val => val instanceof Error
 export const isMap = val => val instanceof Map
 export const isWeakMap = val => val instanceof WeakMap
 export const isSet = val => val instanceof Set
