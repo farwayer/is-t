@@ -12,4 +12,4 @@ yarn add istp
 
 `isType`, `isFn`, `isStr`, `isObj`, `isNum`, `isBool`, `isSym`, `isBigInt`,
 `isDef`, `isUndef`, `isNul`, `isNil`, `isInt`, `isNan`, `isArr`, `isDate`,
-`isMap`, `isWeakMap`, `isSet`, `isWeakSet`, `isGen`
+`isErr`, `isMap`, `isWeakMap`, `isSet`, `isWeakSet`, `isGen`
