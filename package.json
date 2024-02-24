@@ -1,24 +1,12 @@
 {
   "name": "istp",
-  "version": "1.0.6",
+  "version": "2.0.0",
+  "description": "Simple and tree-shakable type checks",
   "license": "WTFPL",
+  "author": "farwayer <farwayer@gmail.com>",
   "repository": "farwayer/istp",
-  "main": "index.cjs.js",
-  "module": "index.esm.js",
-  "react-native": "index.js",
-  "sideEffects": false,
-  "scripts": {
-    "prepack": "yarn cjs && yarn esm",
-    "cjs": "babel --out-file index.cjs.js index.js",
-    "esm": "cross-env ESM=1 babel --out-file index.esm.js index.js"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.13",
-    "@babel/preset-env": "^7.13.12",
-    "cross-env": "^7.0.3"
-  },
-  "files": [
-    "index*.js"
-  ]
+  "exports": {
+    ".":  "./index.js",
+    "./package.json": "./package.json"
+  }
 }

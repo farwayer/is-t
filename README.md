@@ -1,15 +1,16 @@
 # istp
 
-*Simple and tree-shaking ready type checks*
+*Simple and tree-shakable type checks*
 
 [![NPM version](https://img.shields.io/npm/v/istp.svg)](https://www.npmjs.com/package/istp)
 
-```console
+```shell
 yarn add istp
 ```
 
 ## Functions
 
-`isType`, `isFn`, `isStr`, `isObj`, `isNum`, `isBool`, `isSym`, `isBigInt`,
+`isFn`, `isStr`, `isObj`, `isNum`, `isBool`, `isSym`, `isBigInt`,
 `isDef`, `isUndef`, `isNul`, `isNil`, `isInt`, `isNan`, `isArr`, `isDate`,
-`isErr`, `isMap`, `isWeakMap`, `isSet`, `isWeakSet`, `isGen`
+`isErr`, `isMap`, `isWeakMap`, `isSet`, `isWeakSet`, `isGen`, `isTypedArray`,
+`isPromise`, `isNumObj`, `isStrObj`, `isWeakRef`
