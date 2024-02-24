@@ -10,7 +10,6 @@ yarn add istp
 
 ## Functions
 
-`isFn`, `isStr`, `isObj`, `isNum`, `isBool`, `isSym`, `isBigInt`,
-`isDef`, `isUndef`, `isNul`, `isNil`, `isInt`, `isNan`, `isArr`, `isDate`,
-`isErr`, `isMap`, `isWeakMap`, `isSet`, `isWeakSet`, `isGen`, `isTypedArray`,
-`isPromise`, `isNumObj`, `isStrObj`, `isWeakRef`
+`fn`, `str`, `obj`, `num`, `bool`, `sym`, `bigInt`, `def`, `undef`, `nul`,
+`nil`, `int`, `nan`, `arr`, `date`, `err`, `map`, `weakMap`, `set`, `weakSet`,
+`gen`, `typedArray`, `promise`, `numObj`, `strObj`, `weakRef`
