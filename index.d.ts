@@ -1,27 +1,27 @@
-declare function fn(val: unknown): val is Function
-declare function str(val: unknown): val is string
-declare function obj<T extends object>(val: unknown): val is T
-declare function nonNulObj<T extends Exclude<object, null>>(val: unknown): val is T
-declare function num(val: unknown): val is number
-declare function bool(val: unknown): val is boolean
-declare function sym(val: unknown): val is Symbol
-declare function bigInt(val: unknown): val is BigInteger
-declare function def<T extends Exclude<any, undefined>>(val: unknown): val is T
-declare function undef(val: unknown): val is undefined
-declare function nul(val: unknown): val is null
-declare function int(val: unknown): val is number
-declare function nan(val: unknown): val is number
-declare function arr<T>(val: unknown): val is T[]
-declare function typedArray(val: unknown): val is ArrayBufferView
-declare function date(val: unknown): val is Date
-declare function err(val: unknown): val is Error
-declare function map<T extends Map<any, any>>(val: unknown): val is T
-declare function weakMap<T extends WeakMap<any, any>>(val: unknown): val is T
-declare function set<T extends Set<any>>(val: unknown): val is T
-declare function weakSet<T extends WeakSet<any>>(val: unknown): val is T
-declare function regExp(val: unknown): val is RegExp
-declare function promise(val: unknown): val is Promise
-declare function numObj(val: unknown): val is Number
-declare function strObj(val: unknown): val is String
-declare function weakRef(val: unknown): val is WeakRef
-declare function gen(val: unknown): val is Generator
+export function fn(val: unknown): val is Function
+export function str(val: unknown): val is string
+export function obj<T extends object>(val: unknown): val is T
+export function nonNulObj<T extends Exclude<object, null>>(val: unknown): val is T
+export function num(val: unknown): val is number
+export function bool(val: unknown): val is boolean
+export function sym(val: unknown): val is Symbol
+export function bigInt(val: unknown): val is BigInteger
+export function def<T extends Exclude<any, undefined>>(val: unknown): val is T
+export function undef(val: unknown): val is undefined
+export function nul(val: unknown): val is null
+export function int(val: unknown): val is number
+export function nan(val: unknown): val is number
+export function arr<T>(val: unknown): val is T[]
+export function typedArray(val: unknown): val is ArrayBufferView
+export function date(val: unknown): val is Date
+export function err(val: unknown): val is Error
+export function map<T extends Map<any, any>>(val: unknown): val is T
+export function weakMap<T extends WeakMap<any, any>>(val: unknown): val is T
+export function set<T extends Set<any>>(val: unknown): val is T
+export function weakSet<T extends WeakSet<any>>(val: unknown): val is T
+export function regExp(val: unknown): val is RegExp
+export function promise(val: unknown): val is Promise
+export function numObj(val: unknown): val is Number
+export function strObj(val: unknown): val is String
+export function weakRef(val: unknown): val is WeakRef
+export function gen(val: unknown): val is Generator
