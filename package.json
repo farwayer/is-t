@@ -1,6 +1,6 @@
 {
   "name": "istp",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Simple and tree-shakable type checks",
   "license": "WTFPL",
   "author": "farwayer <farwayer@gmail.com>",

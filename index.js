@@ -1,6 +1,7 @@
 export let fn = val => typeof val === 'function'
 export let str = val => typeof val === 'string'
 export let obj = val => typeof val === 'object'
+export let nonNulObj = val => val !== null && typeof val === 'object'
 export let num = val => typeof val === 'number'
 export let bool = val => typeof val === 'boolean'
 export let sym = val => typeof val === 'symbol'
