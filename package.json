@@ -1,10 +1,11 @@
 {
   "name": "istp",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Simple and tree-shakable type checks",
   "license": "WTFPL",
   "author": "farwayer <farwayer@gmail.com>",
   "repository": "farwayer/istp",
+  "type": "module",
   "exports": {
     ".":  "./index.js",
     "./package.json": "./package.json"
