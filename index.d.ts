@@ -6,7 +6,7 @@ export function num(val: unknown): val is number
 export function bool(val: unknown): val is boolean
 export function sym(val: unknown): val is Symbol
 export function bigInt(val: unknown): val is BigInteger
-export function def<T extends Exclude<any, undefined>>(val: unknown): val is T
+export function def<T>(val: T): val is Exclude<T, undefined>
 export function undef(val: unknown): val is undefined
 export function nul(val: unknown): val is null
 export function int(val: unknown): val is number
